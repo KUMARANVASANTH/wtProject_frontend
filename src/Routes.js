@@ -8,7 +8,6 @@ import LoginTeacher from "./pages/signin/login_teacher";
 import SignupStudent from "./pages/signup/signup_student";
 import SignupTeacher from "./pages/signup/signup_teacher";
 import ProfileStudent from "./pages/student/student_profile";
-import ProfileTeacher from "./pages/teacher/teacher_profile";
 import IdeaRegister from "./pages/idea/idea_register";
 import HomeStudent from "./pages/student/student_home";
 import UpdateProfileStudent from "./pages/student/student_profile_update";
@@ -29,7 +28,6 @@ function Routess()
                 <Route path="/profile_student" element = {<ProfileStudent/>}/>
                 <Route path="/profile_student_update" element = {<UpdateProfileStudent/>}/>
                 <Route path="/student_password_change" element = {<StudentPasswordChange/>}/>
-                <Route path="/profile_teacher" element = {<ProfileTeacher/>} />
                 <Route path="/idea_register" element = {<IdeaRegister/>} />
             </Routes>
         </BrowserRouter>

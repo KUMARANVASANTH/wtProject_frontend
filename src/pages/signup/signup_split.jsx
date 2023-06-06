@@ -6,7 +6,7 @@ import './split.css';
 import Head from "../../components/header/header_sign";
 function Signup(){
     return(
-        <>
+        <> 
             <Head/>
             <div id="contain">
                 <h1>Choose your domain to Sign Up</h1>
